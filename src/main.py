@@ -4,8 +4,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import RedirectResponse, JSONResponse
 from fastapi.requests import Request
 
-from src.api_router import api_router
-from src.logger import logger
+from src.routers.api_router import api_router
+from src.core.logger import logger
 
 
 

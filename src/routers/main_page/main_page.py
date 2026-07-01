@@ -2,8 +2,8 @@ from fastapi import FastAPI
 
 from sqlalchemy import select
 
-from src.api_router import main_page
-from src.database import engine, Base, SessionDep
+from src.routers.api_router import main_page
+from src.core.database import engine, Base, SessionDep
 from src.models.tickets import TicketsModel
 
 
